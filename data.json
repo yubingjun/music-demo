@@ -1,0 +1,31 @@
+[{
+  "src": "./music/孤勇者.mp3",
+  "title": "孤勇者",
+  "author": "陈奕迅",
+  "img": "./music/孤勇者.png"
+},
+ {
+   "src": "./music/曾经的你.mp3",
+   "title": "曾经的你",
+   "author": "许巍",
+   "img": "./music/曾经的你.jpg"
+ },
+ {
+   "src": "./music/New Boy.mp3",
+   "title": "New Boy",
+   "author": "房东的猫",
+   "img": "./music/New Boy.jpg"
+ },
+ {
+   "src": "./music/稻香.mp3",
+   "title": "稻香",
+   "author": "周杰伦",
+   "img": "./music/稻香.jpg"
+ },
+ {
+   "src": "./music/乌鸦.mp3",
+   "title": "乌鸦",
+   "author": "许嵩",
+   "img": ".music/乌鸦.jpg"
+ }
+]

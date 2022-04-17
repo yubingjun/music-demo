@@ -1,0 +1,87 @@
+.cover {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background: url(../images/bgc.jpg) center center no-repeat;
+  background-size: cover;
+  filter: blur(5px);
+  transform: scale(1.2);
+}
+
+.player {
+  background: rgba(255, 255, 255, 0.7);
+  width: 600px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  padding: 20px;
+  color: #ea8989;
+  z-index: 2;
+}
+
+.player .main {
+  display: flex;
+}
+
+.player .buttons {
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.player .buttons .iconfont {
+  font-size: 32px;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.player .buttons .iconfont:hover {
+  opacity: 0.7;
+}
+
+.player .texts {
+  margin-left: 20px;
+}
+
+.player .texts h3 {
+  margin-top: 14px;
+  margin-bottom: 8px;
+}
+
+.player .texts p {
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+.player .bar {
+  height: 3px;
+  background: grey;
+  border-radius: 3px;
+}
+
+.player .bar .progress {
+  height: 100%;
+  width: 0%;
+  background: currentColor;
+  border-radius: 3px;
+  transition: width, 10s;
+  cursor: pointer;
+}
+
+.player .time {
+  text-align: right;
+  margin-top: 8px;
+}
+
+#canvas1 {
+  position: fixed;
+  transform: translateX(-50%);
+  top: 0;
+  left: 50%;
+  z-index: 1;
+}

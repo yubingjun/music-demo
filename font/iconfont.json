@@ -1,0 +1,37 @@
+{
+  "id": "3138149",
+  "name": "music-player",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "558653",
+      "name": "icon-arrow-right",
+      "font_class": "playing",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "4825132",
+      "name": "play-left-l",
+      "font_class": "play-left",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "4825165",
+      "name": "play-right-r",
+      "font_class": "play-right",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "10097394",
+      "name": "play_pause",
+      "font_class": "pause",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    }
+  ]
+}
